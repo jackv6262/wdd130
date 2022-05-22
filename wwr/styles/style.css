@@ -2,77 +2,164 @@
     max-width: 1600px;
     margin: 0 auto;
 }
-nav a{
+
+nav a {
     text-align: center;
 }
-h1{
+
+h1 {
     text-align: center;
 }
-h2{
+
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+h4 {
     text-align: center;
 }
-h4{
+
+.button-box {
     text-align: center;
 }
-.button-box{
+
+main section {
     text-align: center;
 }
-main section{
-    text-align: center;
-}
+
 .book {
     text-align: center;
 }
+
 #background {
     height: 725px;
 }
+
 body {
-    background-color:rgb(207, 219, 233);
-    color:rgb(0, 0, 0);
+    background-color: rgb(207, 219, 233);
+    color: rgb(0, 0, 0);
 }
+
 header {
-    background-color:rgb(255, 255, 255);
+    background-color: rgb(243, 217, 217);
     color: rgb(113, 5, 113);
 }
+
 nav a:hover {
     background-color: aqua;
     color: black;
 }
-.book, .join {
+
+.book,
+.join {
     background-color: rgb(42, 165, 116);
     color: rgb(225, 241, 6);
 }
-.book:hover, .join:hover {
+
+.book:hover,
+.join:hover {
     background-color: aqua;
     color: rgb(225, 241, 6);
 }
+
 #background {
     background-color: antiquewhite;
     color: rgb(252, 252, 252);
 }
+
 .msg {
     background-color: blueviolet;
     color: black;
+    padding: 35px;
+    line-height: 1.5em;
 }
+
 footer {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(243, 217, 217);
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
+
 nav a {
     text-align: center;
     color: rgb(114, 6, 6);
     text-decoration: none;
+    padding: 35px;
 }
-.book, .join {
+
+.book,
+.join {
     text-align: center;
     color: rgb(0, 0, 0);
     text-decoration: none;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+
 footer a {
     text-align: center;
     color: rgb(75, 5, 59);
     text-decoration: none;
+}
+
+.home-title {
+    font-family: 'Grape Nuts', cursive;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.book,
+.join {
+    font-size: 18px;
+    padding: 15px 30px;
+}
+
+.msp p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+
+body {
+    font-size: 22px;
+    background-color: #b3eaf7;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 30px;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid rgb(243, 217, 217);
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
 }
