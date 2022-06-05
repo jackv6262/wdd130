@@ -191,6 +191,11 @@ main section img {
     color: white;
 }
 
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat (10, 1fr);
+}
+
 
 #hero-msg {
     grid-column: 2/3;
