@@ -284,4 +284,34 @@ card-img, .mountains {
         margin-top: 25px;
     }
 }
-            
+
+main{
+    max-width: 800px;
+    margin: 5vh auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.faq{
+    padding: 20px 30px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    line-height: 1.5em;
+    margin-top: 15px;
+}
+
+.faq .faq_text{
+    width: 90%;
+}
+
+.subpagewwr-img{
+    max-width: auto;
+    text-align: center;
+}
