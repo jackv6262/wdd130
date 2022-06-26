@@ -1,4 +1,6 @@
-.content, .content2, .content3{
+.content,
+.content2,
+.content3 {
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -11,7 +13,7 @@
     padding-top: 5px;
 }
 
-h1{
+h1 {
     position: absolute;
     right: 500px;
 
@@ -37,7 +39,7 @@ nav a:hover {
 
 /* Homepage formatting */
 
-.home{
+.home {
     max-width: 800px;
     margin: 5vh auto;
     padding: 20px;
@@ -49,6 +51,7 @@ nav a:hover {
     font-size: 35px;
     text-decoration: underline;
 }
+
 img {
     max-width: 200px;
     height: auto;
@@ -57,7 +60,7 @@ img {
 .skateboard-img {
     max-width: 375px;
     height: auto;
-    float:left;
+    float: left;
     padding-top: 35px;
     margin: 0px 15px 15px 0px;
 }
@@ -71,7 +74,7 @@ img {
 }
 
 
-h2{
+h2 {
     text-align: center;
 }
 
@@ -100,7 +103,7 @@ h3 a {
     text-align: center;
 }
 
-h3 a:hover{
+h3 a:hover {
     background-color: #A43312;
     color: white;
 }
@@ -121,7 +124,6 @@ h3 a:hover{
     position: absolute;
     right: 0px;
     top: 128px
-
 }
 
 .deck-img {
@@ -130,7 +132,7 @@ h3 a:hover{
     left: 50px;
     max-width: 300px;
     height: auto;
-    
+
 }
 
 .griptape-img {
@@ -153,7 +155,7 @@ h3 a:hover{
     position: absolute;
     right: 0px;
     top: 250px;
-    
+
 }
 
 /* Trucks and Wheels Subpage Formatting */
@@ -171,7 +173,7 @@ h3 a:hover{
     position: absolute;
     left: 0;
     top: 100px;
-    }
+}
 
 .wheels {
     color: black;
@@ -190,20 +192,21 @@ h3 a:hover{
     position: absolute;
     bottom: 20px;
     right: 200px;
-    text-align: left;}
+    text-align: left;
+}
 
-.timg{
+.timg {
     max-width: 500px;
     height: auto;
     position: absolute;
     left: 20px;
-    top:650px;
+    top: 650px;
 }
 
-.wimg{
-    position:absolute;
+.wimg {
+    position: absolute;
     right: 50px;
-    bottom:70px;
+    bottom: 70px;
     max-width: 300px;
     height: auto;
 }
