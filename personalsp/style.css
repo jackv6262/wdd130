@@ -5,6 +5,9 @@
     margin: 0 auto;
 }
 
+#background {
+    height: 725px;
+}
 
 .logo {
     max-width: 100px;
