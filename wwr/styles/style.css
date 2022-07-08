@@ -396,3 +396,10 @@ button {
 .moveDown {
     margin-top: 3em;
 }
+
+input[type=text], .search-container, search-container button {
+    border: 1px solid #000;
+    text-align: left;
+    margin: 0;
+    padding: 10px;
+}
