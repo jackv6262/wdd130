@@ -60,7 +60,7 @@ img {
     height: auto;
 }
 
-.skateboard-img {
+.skateboardimg {
     max-width: 375px;
     height: auto;
     float: left;
@@ -68,7 +68,7 @@ img {
     margin: 0px 15px 15px 0px;
 }
 
-.anatomy-img {
+.anatomyimg {
     max-width: 450px;
     height: auto;
     position: absolute;
@@ -129,7 +129,7 @@ h3 a:hover {
     top: 128px
 }
 
-.deck-img {
+.deckimg {
     position: absolute;
     top: 540px;
     left: 50px;
@@ -138,7 +138,7 @@ h3 a:hover {
 
 }
 
-.griptape-img {
+.griptapeimg {
     position: absolute;
     top: 450px;
     right: 50px;
