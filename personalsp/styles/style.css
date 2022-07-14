@@ -74,6 +74,7 @@ img {
     position: absolute;
     right: 500px;
     bottom: 100px;
+    border: 2px solid black;
 }
 
 
@@ -135,6 +136,7 @@ h3 a:hover {
     left: 50px;
     max-width: 300px;
     height: auto;
+    border: 2px solid black;
 
 }
 
@@ -144,6 +146,7 @@ h3 a:hover {
     right: 50px;
     max-width: 500px;
     height: auto;
+    border: 2px solid black;
 }
 
 .sk8deck {
@@ -169,8 +172,8 @@ h3 a:hover {
     text-align: center;
 }
 
-.trucks {
-    color: black;
+.truck {
+    color: rgb(0, 0, 0);
     font-size: 35px;
     text-decoration: underline;
     position: absolute;
@@ -204,6 +207,7 @@ h3 a:hover {
     position: absolute;
     left: 20px;
     top: 650px;
+    border: 2px solid black;
 }
 
 .wimg {
@@ -212,15 +216,7 @@ h3 a:hover {
     bottom: 10px;
     max-width: 300px;
     height: auto;
-}
-
-.bimg {
-    position: absolute;
-    right: 500px;
-    top: 700px;
-    max-width: 500px;
-    height: auto;
-
+    border: 2px solid black;
 }
 
 .truckspara {
@@ -241,4 +237,13 @@ h3 a:hover {
     position: absolute;
     top: 850px;
     right: 50px;
+}
+
+.bimg {
+    position: absolute;
+    right: 500px;
+    top: 700px;
+    max-width: 500px;
+    height: auto;
+    border: 2px solid black;
 }
