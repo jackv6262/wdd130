@@ -178,7 +178,7 @@ h3 a:hover {
     text-decoration: underline;
     position: absolute;
     left: 0;
-    top: 100px;
+    top: 150px;
 }
 
 .wheels {
@@ -196,7 +196,7 @@ h3 a:hover {
     font-size: 35px;
     text-decoration: underline;
     position: absolute;
-    top: 800px;
+    top: 700px;
     right: 200px;
     text-align: left;
 }
@@ -206,14 +206,14 @@ h3 a:hover {
     height: auto;
     position: absolute;
     left: 20px;
-    top: 650px;
+    top: 620px;
     border: 2px solid black;
 }
 
 .wimg {
     position: absolute;
     right: 50px;
-    bottom: 10px;
+    bottom: 60px;
     max-width: 300px;
     height: auto;
     border: 2px solid black;
@@ -221,13 +221,16 @@ h3 a:hover {
 
 .truckspara {
     max-width: 800px;
+    position: relative;
+    left: 0px;
+    top: 43px;
     text-align: left;
 }
 
 .wheelspara {
     max-width: 700px;
     position: absolute;
-    right: 20px;
+    right: 0px;
     top: 230px;
     text-align: right;
 }
@@ -235,14 +238,14 @@ h3 a:hover {
 .bearingspara {
     max-width: 400px;
     position: absolute;
-    top: 850px;
+    top: 730px;
     right: 50px;
 }
 
 .bimg {
     position: absolute;
     right: 500px;
-    top: 700px;
+    top: 680px;
     max-width: 500px;
     height: auto;
     border: 2px solid black;
