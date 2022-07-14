@@ -214,6 +214,15 @@ h3 a:hover {
     height: auto;
 }
 
+.bimg {
+    position: absolute;
+    right: 500px;
+    top: 700px;
+    max-width: 500px;
+    height: auto;
+
+}
+
 .truckspara {
     max-width: 800px;
     text-align: left;
