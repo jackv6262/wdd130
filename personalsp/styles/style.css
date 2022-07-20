@@ -166,6 +166,44 @@ h3 a:hover {
 
 /* Trucks and Wheels Subpage Formatting */
 
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 0.4fr 1.6fr;
+    grid-template-rows: 0.3fr 0.4fr 2.3fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "pageheader pageheader pageheader pageheader"
+      "truck truck . wheels"
+      "truckspara truckspara . wheelspara"
+      "truckimg truckimg . wheelsimg"
+      "truckimg truckimg . bearings"
+      ". . bearingsimg bearingspara";
+      gap: 9px 6px;
+  }
+  
+  .wheels { grid-area: 2/4/3/5; }
+  
+  .truckspara { grid-area: 3/1/4/3; }
+  
+  .wheelspara { grid-area: 3/4/4/5; }
+  
+  .pageheader { grid-area: 1/1/2/5; }
+  
+  .truck { grid-area: 2/1/3/3; }
+  
+  .truckimg { grid-area: 4/1/6/3; }
+  
+  .wheelsimg { grid-area: 4/4/5/5; }
+  
+  .bearings { grid-area: 5/4/6/5; }
+  
+  .bearingspara { grid-area: 6/4/7/5; }
+  
+  .bearingsimg { grid-area: 6/3/7/4; }
+  
+
+  /* Trucks and Wheels Subpage Formatting */
+
 .pageheader {
     color: black;
     font-size: 40px;
@@ -178,7 +216,7 @@ h3 a:hover {
     text-decoration: underline;
     position: absolute;
     left: 0;
-    top: 150px;
+    top: 190px;
 }
 
 .wheels {
@@ -187,8 +225,7 @@ h3 a:hover {
     text-decoration: underline;
     position: absolute;
     right: 0;
-    top: 130px;
-
+    top: 190px;
 }
 
 .bearings {
@@ -204,9 +241,8 @@ h3 a:hover {
 .timg {
     max-width: 500px;
     height: auto;
+    margin-top: 65px;
     position: absolute;
-    left: 20px;
-    top: 620px;
     border: 2px solid black;
 }
 
@@ -223,7 +259,7 @@ h3 a:hover {
     max-width: 800px;
     position: relative;
     left: 0px;
-    top: 43px;
+    top: 10px;
     text-align: left;
 }
 
@@ -231,22 +267,33 @@ h3 a:hover {
     max-width: 700px;
     position: absolute;
     right: 0px;
-    top: 230px;
+    top: 260px;
     text-align: right;
 }
 
 .bearingspara {
     max-width: 400px;
     position: absolute;
-    top: 730px;
+    bottom: -90px;
     right: 50px;
 }
 
 .bimg {
     position: absolute;
     right: 500px;
-    top: 680px;
+    top: 730px;
     max-width: 500px;
     height: auto;
     border: 2px solid black;
+}
+
+.tawfoot {
+    background-color: #943A6D;
+    color: black;
+    padding: 20px 25px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
 }
